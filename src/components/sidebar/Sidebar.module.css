@@ -1,0 +1,13 @@
+.sidebar {
+  background-color: #585A5B;
+  height: 100%;
+  position: fixed;
+
+  width: 17rem;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    visibility: hidden;
+  }
+}
