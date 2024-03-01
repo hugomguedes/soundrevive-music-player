@@ -1,8 +1,14 @@
 import './App.css';
 import { Sidebar } from '../components/sidebar/Sidebar';
+import { Player } from '../components/player/Player';
 
 export default function App() {
   return (
-    <Sidebar />
+    <div>
+      <Sidebar />
+      <main>
+        <Player />
+      </main>
+    </div>
   );
 }

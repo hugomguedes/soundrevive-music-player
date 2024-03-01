@@ -3,6 +3,14 @@
   --jet: #363537;
   --powder-blue: #B1B7D1;
   --cardinal: #AD343E;
+  --grey-400: #7D7E83;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(black, var(--grey-400));
 }
 
 * {
