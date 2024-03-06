@@ -11,28 +11,28 @@ export function Player() {
     <div className={styles.player}>
 
       <div className={styles.trackProgress}>
-        <progress value={0.7}/>
+        <progress value={0.7} />
       </div>
 
-      <div className={styles.Buttons}>
+      <div className={styles.buttons}>
         <button>
-          <img src={shuffle}/>
+          <img className={styles.shuffle} src={shuffle} />
         </button>
 
         <button>
-          <img src={previous}/>
+          <img className={styles.previous} src={previous} />
         </button>
 
         <button>
-          <img src={pause_play}/>
+          <img className={styles.pause_play} src={pause_play} />
         </button>
 
         <button>
-          <img src={next}/>
+          <img className={styles.next} src={next} />
         </button>
 
         <button>
-          <img src={stop}/>
+          <img className={styles.stop} src={stop} />
         </button>
       </div>
 
@@ -41,7 +41,7 @@ export function Player() {
           type="range"
           min={0}
           max={100}
-          /*determine step*/
+        /*determine step*/
         />
       </div>
 
